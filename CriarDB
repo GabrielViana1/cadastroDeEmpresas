@@ -1,0 +1,25 @@
+
+CREATE DATABASE CadastroEmpresas;
+
+CREATE TABLE empresas (
+    id SERIAL PRIMARY KEY,
+    cnpj VARCHAR(14) UNIQUE NOT NULL,
+    razao VARCHAR(100) NOT NULL,
+    cep VARCHAR(9) NOT NULL,
+    logradouro VARCHAR(100) NOT NULL,
+    numero VARCHAR(10) NOT NULL,
+    bairro VARCHAR(100) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    estado VARCHAR(2) NOT NULL,
+    complemento VARCHAR(100),
+    email VARCHAR(100),
+    telefone VARCHAR(20)
+);
+
+-- Criação da tabela de usuários
+CREATE TABLE usuarios (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    senha VARCHAR(100) NOT NULL
+);

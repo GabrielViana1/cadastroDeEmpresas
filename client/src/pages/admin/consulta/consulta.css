@@ -1,0 +1,13 @@
+
+.table td {
+    width: 100px; /* Defina a largura desejada para as células */
+    /* Você pode ajustar o valor conforme necessário */
+    overflow: hidden; /* Isso impede que o conteúdo vaze para fora da célula */
+    white-space: nowrap; /* Isso evita que o conteúdo seja quebrado em várias linhas */
+    text-overflow: ellipsis; /* Isso adiciona reticências (...) ao final do conteúdo que não cabe na célula */
+    padding: 1em 3em 1em 0em;
+}
+
+.table th {
+    padding: 1em 3em 1em 0em;
+}
