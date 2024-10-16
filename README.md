@@ -128,6 +128,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Para perguntas ou feedback, sinta-se à vontade para entrar em contato:
 
-- **Seu Nome**: bielviana117@gmail.com
-- **GitHub**: GabrielViana1
+- **Email**: bielviana117@gmail.com
+- [**Linkedin**](https://www.linkedin.com/in/ogabrielviana/)
 
