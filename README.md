@@ -98,6 +98,7 @@ Para obter uma cópia local deste projeto e executá-lo, siga estas etapas:
 3. Uma vez logado, navegue pelo aplicativo para gerenciar os cadastros de clientes.
 
 ## Endpoints da API
+Os atuais funcionam mas não está escrito da maneira correta.
 Será atualizado em breve, utilizando métodos corretos para cada ação (POST, PUT, DELETE, GET)
 
 
